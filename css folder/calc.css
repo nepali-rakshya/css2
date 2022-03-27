@@ -1,0 +1,28 @@
+/* 
+calc()
+it is used to perform math operations 
+mix and match values
+
+
+----------------------Min and Max Height-------------------
+min height and max height are used to designate some height for the element. 
+min height: the least or minimum height provided to an element, and it expands as the content is piled up.
+
+max height: the size upto which the height has been streched, and it cannot expand more than that.
+*/
+
+* {
+  margin: 0;
+}
+
+.navbar {
+  background: rgba(73, 73, 196, 0.658);
+  height: 100px;
+  color: rgb(255, 255, 255);
+  font-size: 3rem;
+}
+
+.banner {
+  background: rgba(151, 25, 25, 0.288);
+  min-height: calc(100vh - 100px);
+}
