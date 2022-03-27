@@ -1,0 +1,17 @@
+/* 
+font-size font-family
+------------------------------------------------------
+font-stack generic-family (serif, sans-serf, cursive, fantasy, monospace)
+------------------------------------------------------
+GOOGLE FONTS
+from the site itself
+
+*/
+
+h1 {
+  font-family: "Smokum", cursive;
+}
+
+p {
+  font-family: "Bebas Neue", cursive;
+}
