@@ -1,0 +1,12 @@
+/* 
+Inline block
+Now, each time we use display property for block the link are gonna get wide spreaded
+and, we don't want that to happend so inorder to avoid that issue we will be using inline-block value in the display property
+*/
+
+a {
+  font-size: 60px;
+  background: red;
+  margin: 10px;
+  display: inline-block;
+}
