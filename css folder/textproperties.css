@@ -1,0 +1,51 @@
+/* 
+line-height 
+            -controls the spacing between the lines
+            -it is relative to the parent
+
+letter-spacing
+            -only creates letter spaces
+
+word-spacing
+            -only creates word spaces
+
+text-transform
+            -transforming the text into captials and other formats.
+
+text-decoration
+            -look at the link, thats where the decoration works
+            -it works everywhere. lol!
+*/
+
+/* line height */
+
+.one {
+  line-height: 30px;
+  text-decoration: line-through;
+}
+
+/* letter spacing */
+
+.two {
+  letter-spacing: 5px;
+  text-decoration: overline;
+}
+
+/* word spacing */
+
+.three {
+  word-spacing: 4px;
+  text-decoration: underline;
+}
+
+/* text transform */
+h1 {
+  text-transform: capitalize;
+  text-decoration: underline;
+}
+
+/* text decoration */
+a {
+  font-size: 15px;
+  text-decoration: none;
+}
