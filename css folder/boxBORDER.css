@@ -1,0 +1,49 @@
+/* -------------------VERY IMPORTANT------------------- */
+
+/* -------------------BORDER-------------------
+- 
+*/
+
+/* h1 {
+  background: red;
+  padding: 2em;
+  border: 2px solid black;
+}
+
+p {
+  background: blue;
+  padding: 50px;
+  margin: 30px 45px 1px 34px;
+  border-bottom-style: dotted;
+  border-bottom-width: 13px;
+  border-bottom-color: green;
+} */
+
+/*------------------- BORDER RADIUS ------------------- */
+/* with border radius we can work on the edges of the border */
+
+/* h1 {
+  background: red;
+  border: 5px solid black;
+  border-radius: 13px;
+}
+
+p {
+  background-color: blue;
+  border: 13px solid green;
+  border-radius: 50%;
+} */
+
+/* ------------NEGATIVE MARGIN------------------------ */
+h1 {
+  background: red;
+  border: 5px solid black;
+  border-radius: 13px;
+}
+
+p {
+  background-color: blue;
+  border: 13px solid green;
+  border-radius: 50%;
+  margin-top: -80px;
+}
