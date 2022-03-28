@@ -1,0 +1,26 @@
+/* -------------------VERY IMPORTANT------------------- */
+
+/* -------------------PADDING-------------------
+- It is the space between the contents.
+*/
+
+h1 {
+  background: red;
+  padding-top: 30px;
+  padding-left: 30px;
+  padding-right: 4em;
+  padding-bottom: 30px;
+}
+
+/* padding shortcuts instead of writing that long code */
+p {
+  background: blue;
+  /* padding: 30px 60px; */
+  /* this is for top and bottom 30px and left and right 60px */
+  /* padding: 50px; */
+  /* this is for top bottom left right 50px */
+
+  padding: 20px 40px 60px 10px;
+  /* this goes in a clock wise direction 
+  top right bottom and left */
+}
