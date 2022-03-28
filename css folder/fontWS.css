@@ -9,7 +9,7 @@ p {
   font-family: "Roboto", sans-serif;
 }
 
-.one {
+/* .one {
   font-weight: 700;
 }
 
@@ -17,12 +17,21 @@ p {
   font-style: italic;
 }
 
-/* .again {
+ .again {
   font-style: normal;
-} */
+} 
 .two {
   font-style: inherit;
 }
 #subheading {
   font-weight: lighter;
+} */
+
+/* ------------------TEXT ALIGN & INDENT--------------- */
+body {
+  text-align: left;
+}
+
+.one {
+  text-indent: 10px;
 }
