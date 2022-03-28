@@ -1,0 +1,28 @@
+/* 
+font width and style
+*/
+.main {
+  font-family: "Yesteryear", cursive;
+}
+
+p {
+  font-family: "Roboto", sans-serif;
+}
+
+.one {
+  font-weight: 700;
+}
+
+.here {
+  font-style: italic;
+}
+
+/* .again {
+  font-style: normal;
+} */
+.two {
+  font-style: inherit;
+}
+#subheading {
+  font-weight: lighter;
+}
