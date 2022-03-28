@@ -1,0 +1,33 @@
+/* 
+outline
+offset
+*/
+
+/* -------------------OUTLINE-OFFSET---------------------
+outline is similar to border from syntax to values
+BUT in case of outline we can protrude the outline.
+
+ */
+.buttons {
+  margin: 3rem;
+}
+
+a {
+  background: green;
+  text-decoration: none;
+  padding: 1.2rem 1.5rem;
+  color: #222;
+  text-transform: uppercase;
+  cursor: pointer;
+  margin: 0 20px;
+}
+
+#one {
+  border: 0.2rem solid black;
+}
+
+#two {
+  outline: 0.2rem solid black;
+  outline-offset: 5px;
+  outline-offset: -10px;
+}
