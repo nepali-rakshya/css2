@@ -1,0 +1,43 @@
+/*
+Block: top bottom margin are respected
+Inline: top bottom margin arenot respected
+
+Moblie Navbar
+List-style-type: property
+descendant selectors
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+ul li {
+  list-style-type: none;
+}
+/* this means all the children that are "list" of the unordered list, select them ul > li > a*/
+
+ul li a {
+  text-decoration: none;
+  text-transform: capitalize;
+  letter-spacing: 2px;
+  background: black;
+  color: orange;
+  display: block;
+  padding: 10px 10px;
+  margin: 10px auto;
+  width: 200px;
+  text-align: center;
+}
+
+/* THE prblem we had faced previously with our link i.e., the links weren't responding to the margin-top/bottom property 
+-----------the whole reason is due to this inline property 
+-----------so in case of inline elements browser isn't gonna respect top bottom margin. LOL! WHAT! didn't expect that
+--------------------------S O L U T I O N---------------------------
+
+make them BLOCK level elements*/
