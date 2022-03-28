@@ -1,0 +1,21 @@
+/* -------------------VERY IMPORTANT------------------- */
+
+/* -------------------MARGIN-------------------
+- It is in between the content and the border
+*/
+
+h1 {
+  background: red;
+  padding: 2em;
+  margin-bottom: 0;
+  margin-right: 30px;
+  margin-left: 30px;
+  margin-top: 50px;
+}
+
+p {
+  background: blue;
+  padding: 50px;
+  margin-top: 0;
+  margin: 30px 45px 1px 34px;
+}
