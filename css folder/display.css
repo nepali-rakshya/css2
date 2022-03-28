@@ -1,0 +1,27 @@
+/* Default Display Property
+Block : always starts a new line and takes full width 
+Inline : doesnot start and only take up as much as content space
+*/
+
+.block {
+  background: blue;
+  color: white;
+  display: inline;
+}
+
+/* ----------------------------DISPLAY------------------------------ 
+This property is an amazing one as it changes the whole game 
+it can turn any block element into inline and any inline element into block element*/
+
+.inline {
+  background: red;
+  color: white;
+  display: block;
+}
+
+/* -------------------------HORIZONTAL CENTERING---------------------- */
+.block {
+  display: block;
+  width: 50%;
+  margin: 0 auto;
+}
