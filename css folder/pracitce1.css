@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* for title */
+
+.title {
+  font-family: "Alegreya", serif;
+  font-size: 2em;
+  text-align: center;
+  letter-spacing: 2px;
+}
+
+/* for nav bar */
+
+.nav_list {
+  list-style-type: none;
+  text-transform: uppercase;
+  font-family: "Alegreya", serif;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+}
+
+.nav_list li a {
+  list-style-type: none;
+  text-decoration: none;
+  padding: 10px;
+  display: block;
+  background: rgba(90, 110, 175, 0.61);
+  color: white;
+  font-size: large;
+  font-weight: bold;
+}
+
+/* for about us page */
+
+.para {
+  font-family: "Merriweather", serif;
+  font-size: small;
+  font-weight: bold;
+  color: white;
+  line-height: 2em;
+  word-spacing: 2px;
+}
+
+#about-us {
+  font-family: "Alegreya", serif;
+  text-align: center;
+  letter-spacing: 1.5px;
+}
+
+.aboutus {
+  padding: 10px;
+  margin: 20px auto;
+  background-color: rgba(90, 110, 175, 0.61);
+}
+
+/* for contact page */
+
+#contact-us {
+  font-family: "Alegreya", serif;
+  letter-spacing: 1.5px;
+}
+
+.contactus {
+  font-family: "Merriweather", serif;
+  font-weight: bold;
+  font-size: small;
+  line-height: 3.5em;
+}
+
+/* for field */
+.label {
+  border: 1px solid gray;
+  border-radius: 2em;
+  padding: 10px;
+  box-sizing: border-box;
+  margin: 10px;
+}
+
+/* button */
+
+.button {
+  outline: 2px solid rgba(34, 34, 175, 0.555);
+  padding: 5px;
+  margin: 0 10px;
+  width: 100px;
+  border-radius: 2em;
+  color: black;
+  background: rgba(90, 110, 175, 0.61);
+}
+
+/* for the back to top arrow */
+
+.backtotop a {
+  display: block;
+  width: 30px;
+  text-align: center;
+  color: white;
+  background: rgba(57, 54, 199, 0.781);
+  border-radius: 20em;
+  outline: 3px solid rgba(34, 34, 175, 0.555);
+  outline-offset: 2px;
+  box-sizing: border-box;
+  padding: 2px;
+  margin: 10px 20px 20px 10px;
+  margin-left: auto;
+  text-decoration: none;
+}
