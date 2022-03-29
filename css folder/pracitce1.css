@@ -1,3 +1,14 @@
+/* IMPORTANT CONCEPT
+the default width of the browser is 100% 
+so whenever there is block element and we are tyna add margin then we gotta be careful 
+while adding right or left margin because
+the default width is 100% so margin won't show any effect ont the website
+so width must be addressed!!! 
+
+
+--------------INLINE elements can't have a height similar to how they cannot have margin top/bottom or padding top/bottom---------------
+*/
+
 * {
   margin: 0;
   padding: 0;
@@ -14,23 +25,16 @@
 
 /* for nav bar */
 
-.nav_list {
-  list-style-type: none;
-  text-transform: uppercase;
-  font-family: "Alegreya", serif;
-  letter-spacing: 2px;
-  word-spacing: 2px;
-}
-
-.nav_list li a {
-  list-style-type: none;
+a {
   text-decoration: none;
-  padding: 10px;
-  display: block;
+  display: inline-block;
   background: rgba(90, 110, 175, 0.61);
-  color: white;
-  font-size: large;
+  color: black;
+  font-family: "Merriweather", serif;
   font-weight: bold;
+  padding: 20px 25px;
+  width: 100px;
+  margin-left: auto;
 }
 
 /* for about us page */
@@ -83,7 +87,7 @@
 
 .button {
   outline: 2px solid rgba(34, 34, 175, 0.555);
-  padding: 5px;
+  padding: 20px 25px;
   margin: 0 10px;
   width: 100px;
   border-radius: 2em;
@@ -95,16 +99,15 @@
 
 .backtotop a {
   display: block;
-  width: 30px;
-  text-align: center;
   color: white;
   background: rgba(57, 54, 199, 0.781);
   border-radius: 20em;
   outline: 3px solid rgba(34, 34, 175, 0.555);
   outline-offset: 2px;
   box-sizing: border-box;
-  padding: 2px;
+  padding: 10px 5px;
   margin: 10px 20px 20px 10px;
   margin-left: auto;
   text-decoration: none;
+  text-align: center;
 }
