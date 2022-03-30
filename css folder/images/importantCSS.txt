@@ -1,0 +1,13 @@
+How to simplify your CSS for beginners?
+--> 
+
+1. Use more ----------classes than ids------------- and assign understandable 
+name to the classes and don't overly complicate by adding all the child elements into a single css.
+
+2. Add comments before assigning any kinds of css, that would save you when
+you have to recheck the css after a long time.
+
+3. The best thing you can do is add ------------table of content---------------
+so that you can search more easily.
+
+4. -------------Text contrast--------------------- dev tools says that so be careful.
