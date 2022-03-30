@@ -6,7 +6,8 @@ the default width is 100% so margin won't show any effect ont the website
 so width must be addressed!!! 
 
 
---------------INLINE elements can't have a height similar to how they cannot have margin top/bottom or padding top/bottom---------------
+--------------INLINE elements can't have a height and width similar to how they cannot have margin top/bottom or padding top/bottom---------------
+
 */
 
 * {
@@ -24,17 +25,24 @@ so width must be addressed!!!
 }
 
 /* for nav bar */
+ul {
+  list-style-type: none;
+  background: gray;
+  padding: 6px;
+  text-align: right;
+}
+li {
+  text-decoration: none;
+  background: rgba(90, 110, 175, 0.61);
+  padding: 12px 10px;
+  margin: 0 20px;
+  display: inline-block;
+}
 
 a {
   text-decoration: none;
-  display: inline-block;
-  background: rgba(90, 110, 175, 0.61);
-  color: black;
-  font-family: "Merriweather", serif;
-  font-weight: bold;
-  padding: 20px 25px;
-  width: 100px;
-  margin-left: auto;
+  color: white;
+  font-size: large;
 }
 
 /* for about us page */
@@ -98,16 +106,18 @@ a {
 /* for the back to top arrow */
 
 .backtotop a {
-  display: block;
   color: white;
   background: rgba(57, 54, 199, 0.781);
-  border-radius: 20em;
-  outline: 3px solid rgba(34, 34, 175, 0.555);
-  outline-offset: 2px;
-  box-sizing: border-box;
-  padding: 10px 5px;
-  margin: 10px 20px 20px 10px;
-  margin-left: auto;
-  text-decoration: none;
+  display: inline-block;
+  width: 20px;
   text-align: center;
+  outline: 2px solid rgba(57, 54, 199, 0.781);
+  outline-offset: 2px;
+  border-radius: 100px;
+  padding: 15px 20px;
+  margin: 10px;
+}
+
+.backtotop {
+  text-align: right;
 }
