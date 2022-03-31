@@ -1,0 +1,42 @@
+body {
+  background: lightblue;
+}
+
+/* The heading */
+h1 {
+  width: 500px;
+  margin: auto;
+  font-size: large;
+  text-align: center;
+  font-family: cursive;
+  color: #d7455f;
+}
+
+/* for the first and second paragraph at one */
+
+p,
+#firstPara,
+#secondPara {
+  font-family: cursive;
+  height: 80px;
+  width: 500px;
+  border: 2px solid brown;
+  margin: auto;
+  margin-top: 10px;
+  background-color: #9b3155a6;
+  border-radius: 0.5em;
+}
+
+/* for the thirdPara text fonts */
+
+#thirdPara {
+  height: 300px;
+}
+
+/* for the thrid para bg img  */
+
+.parabg {
+  background-image: url("https://codewithharry.com/img/logo-blue.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+}
