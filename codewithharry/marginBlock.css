@@ -1,0 +1,20 @@
+li {
+  list-style: none;
+  display: inline-block;
+  border: 2px solid black;
+}
+
+ul {
+  /* background: gray; */
+  text-align: right;
+}
+
+nav {
+  width: 500px;
+  margin-left: auto;
+  /* background: gray; */
+}
+
+div {
+  background-color: gray;
+}
