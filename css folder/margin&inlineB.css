@@ -1,0 +1,25 @@
+.box {
+  display: inline-block;
+  background-color: pink;
+}
+
+.box,
+a {
+  padding: 10px;
+  margin: 10px;
+  color: white;
+  font-weight: bolder;
+  font-style: italic;
+}
+
+a {
+  display: inline-block;
+  background-color: gray;
+  text-decoration: none;
+}
+
+.box1 {
+  border: 2px solid black;
+  background: lightblue;
+  text-align: right;
+}
